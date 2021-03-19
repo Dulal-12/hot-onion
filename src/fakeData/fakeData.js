@@ -60,7 +60,7 @@ const fakeData = [
                     name : 'Bagel and Cream Cheese',
                     image : "https://i.ibb.co/x3qWs10/breakfast1.png" , 
                     price : 30.99,
-                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, similique?",
+                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rue?",
                     details : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, omnis repellat? Error perferendis veritatis accusantium tempora obcaecati quos adipisci voluptatibus? Placeat aliquam ipsa consequuntur in reprehenderit exercitationem minima tempore nesciunt."
                 },
                 {
@@ -69,7 +69,7 @@ const fakeData = [
                     name : 'Breakfast Sandwich',
                     image : "https://i.ibb.co/CQMbdb1/breakfast2.png" , 
                     price : 15.99,
-                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, similique?",
+                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehendque?",
                     details : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, omnis repellat? Error perferendis veritatis accusantium tempora obcaecati quos adipisci voluptatibus? Placeat aliquam ipsa consequuntur in reprehenderit exercitationem minima tempore nesciunt."
                 },
                 {
@@ -87,7 +87,7 @@ const fakeData = [
                     name : 'Eggs Benedict',
                     image : "https://i.ibb.co/6ys7YWg/breakfast4.png" ,
                     price : 4.99,
-                    description : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, tempora.",
+                    description : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atqu  tempghn  ffffffffkdda.",
                     details : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde ipsa asperiores odio nulla. Alias, exercitationem! Ut atque eius odit nihil necessitatibus? Corrupti alias possimus blanditiis debitis itaque laboriosam magnam."
                 },
                 {

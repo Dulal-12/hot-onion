@@ -1,0 +1,14 @@
+.section nav a{
+    text-decoration: none;
+    margin-left:10px;
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section nav{
+    text-align: center;
+}
+.section nav a:hover{
+    color:red;
+    border-bottom: 2px solid green;
+}

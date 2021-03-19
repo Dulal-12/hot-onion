@@ -1,0 +1,22 @@
+.product-container img{
+
+    height : 120px;
+    
+}
+
+.product-container{
+    float:left;
+    width:30%;
+    text-align: center;
+    height:300px;
+    padding:5px;
+    margin-left: 10px;
+
+    padding:5px;
+}
+.name{
+    color:rgb(79, 128, 0);
+}
+.name:hover{
+    color:rgba(255, 0, 0, 0.658);
+}

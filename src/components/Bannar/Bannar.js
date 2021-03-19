@@ -1,7 +1,7 @@
 import React from 'react';
 import bg from '../../bannerbackground.png';
 import './Bannar.css';
-import man from '../../ICON/Group 2.png';
+import foodLover2 from '../../Image/foodLover2.png';
 const Bannar = () => {
     return (
         <div className="rounded  d-block bannar" style={{
@@ -11,7 +11,7 @@ const Bannar = () => {
             backgroundImage: `url(${bg})`,
           }} >
             <h1 >BEST FOOD WAITING FOR YOU BELLY</h1>
-            <img src={man} alt=""/>
+            <img src={foodLover2} alt=""/>
         </div>   
     );
 };
