@@ -1,0 +1,11 @@
+.bannar{
+    height:400px;
+    margin : 2%;
+    text-align: center;
+}
+.bannar h1{
+   color:green;
+} 
+.bannar img{
+    height:200px;
+}

@@ -1,0 +1,12 @@
+.navbar{
+    margin:2%;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.navbar img{
+    height :30px;
+}
