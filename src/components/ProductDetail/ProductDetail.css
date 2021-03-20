@@ -1,0 +1,12 @@
+.product-details{
+    height:650px;
+    display:flex;
+    text-align: justify;
+}
+.discription p{
+   color:grey;
+}
+.discription h2{
+    color:green;
+    font-size:40px;
+}

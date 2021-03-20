@@ -23,7 +23,7 @@ const fakeData = [
                     name : 'Tarragon-Rubbed-salman',
                     image : "https://i.ibb.co/Y7RctZF/lunch3.png",
                     price : 5,
-                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, similique?",
+                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ique?",
                     details : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis illum reprehenderit, ea, temporibus maxime expedita sit nam porro veniam ducimus quos facilis laboriosam rem recusandae esse alias id culpa."
                 },
                 {
@@ -41,7 +41,7 @@ const fakeData = [
                     name : 'Honey-soy-Glazed salman',
                     image : "https://i.ibb.co/Lt4xdcW/lunch5.png" ,
                     price : 5,
-                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, similique?",
+                    description : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reilique?",
                     details : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt sapiente error aut odio laborum mollitia voluptatum, ut, repudiandae nobis, similique voluptates quas magnam amet ex reiciendis tempore aliquam. Molestiae."
                 },
                 {

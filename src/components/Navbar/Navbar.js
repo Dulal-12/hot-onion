@@ -14,7 +14,7 @@ const Navbar = () => {
                 <a href="/login"><small>Login</small></a>
                 <a href="/#"><button className="btn btn-danger">SignUp</button></a>
             </nav>
-         </div>
+        </div>
     );
 };
 
