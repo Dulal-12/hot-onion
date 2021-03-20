@@ -10,7 +10,8 @@
     text-align: center;
     height:300px;
     padding:5px;
-    margin-left: 10px;
+   margin:1%;
+   margin-bottom: 40px;
 
     padding:5px;
 }
@@ -19,4 +20,8 @@
 }
 .name:hover{
     color:rgba(255, 0, 0, 0.658);
+}
+.product-container:hover{
+    border:none;
+    box-shadow:10px 10px 20px lightgray;
 }

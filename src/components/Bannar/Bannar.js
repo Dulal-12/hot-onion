@@ -11,7 +11,7 @@ const Bannar = () => {
             backgroundImage: `url(${bg})`,
           }} >
             <h1 >BEST FOOD WAITING FOR YOU BELLY</h1>
-            <img src={foodLover2} alt=""/>
+               <img src={foodLover2} alt=""/>
         </div>   
     );
 };

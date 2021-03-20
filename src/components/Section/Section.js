@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Section.css';
 
 const Section = () => {
@@ -11,7 +11,7 @@ const Section = () => {
     return (
         <div className="container section">
             <nav>
-                <Link to={"/" + first} activeClassName="active">Breakfat</Link>
+                <Link to={"/" + first} activeClassName="active">Breakfast</Link>
                 <Link to={"/"+second}>Lunch</Link>
                 <Link to={"/"+third}>Dinner</Link>
             </nav>

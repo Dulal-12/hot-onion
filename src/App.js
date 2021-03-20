@@ -5,34 +5,33 @@ import Section from './components/Section/Section';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Redirect
+  Route
 } from "react-router-dom";
-import Products from './components/Products/Products';
+import Shop from './components/Shop/Shop';
 import Order from './components/Order/Order';
 
 function App() {
   return (
     <div>
       <Router>
-        <Navbar></Navbar>
-        <Bannar></Bannar>
-        <Section></Section>
-        <Switch>
-        <Route exact path='/'>
-           <Products></Products>
-        </Route>
-          <Route exact path="/:key">
-            <Products></Products>
-          </Route>
-          <Route path="/:key">
-            <Products></Products>
-          </Route>
-          <Route path="/:key">
-            <Products></Products>
-          </Route>
-        </Switch>
-        <Order></Order>
+            <Navbar></Navbar>
+            <Bannar></Bannar>
+            <Section></Section>
+                             <Switch>
+                                  <Route exact path='/'>
+                                    <Shop/>
+                                  </Route>
+                                  <Route exact path="/:key">
+                                    <Shop/>
+                                  </Route>
+                                  <Route path="/:key">
+                                    <Shop/>
+                                  </Route>
+                                  <Route path="/:key">
+                                    <Shop/>
+                                  </Route>
+                              </Switch>
+       <Order/>
       </Router>
     </div>
   );
