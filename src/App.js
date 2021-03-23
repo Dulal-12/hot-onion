@@ -14,6 +14,7 @@ import Login from './components/Login/Login';
 import { createContext, useState } from 'react';
 import Shipment from './components/Shipment/Shipment';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 export const userContext = createContext();
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
                                   <Route path='/login'>
                                       <Login/>
                                    </Route>
+                                   <Route exact path='/placeOrder'>
+                                    <PlaceOrder/>
+                                  </Route>
                                   <Route path="/food/:id">
                                     <ProductDetail/>
                                   </Route>
@@ -46,7 +50,7 @@ function App() {
                                   <Route path="/:key">
                                     <Shop/>
                                   </Route>
-                                 
+                                
                                 
                               </Switch>
                              

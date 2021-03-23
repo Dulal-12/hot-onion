@@ -1,0 +1,8 @@
+.final{
+    display:flex;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+}
+.final img{
+    height:80px;
+}
