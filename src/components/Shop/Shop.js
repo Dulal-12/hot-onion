@@ -16,7 +16,7 @@ const Shop = () => {
                 products.map(product => <Product product={product} key={product.id}></Product>)
             }
                <div style={{textAlign: 'center'}} className="m-5 p-5">
-            <button className="btn btn-danger" onClick={()=> history.push('/login')}>Checkout Your Order</button>
+            <button className="btn btn-danger" onClick={()=> history.push('/shipment')}>Checkout Your Order</button>
         </div>
            
         </div>

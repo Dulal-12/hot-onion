@@ -11,9 +11,15 @@ import Shop from './components/Shop/Shop';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
+import { createContext, useState } from 'react';
+import Shipment from './components/Shipment/Shipment';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+export const userContext = createContext();
+
 function App() {
+  const [loggedUser , setLoggedUser] = useState({});
   return (
-    <div>
+    <userContext.Provider value={[loggedUser , setLoggedUser]}>
       <Router>
             <Navbar></Navbar>
             <Bannar></Bannar>
@@ -22,9 +28,12 @@ function App() {
                                   <Route exact path='/'>
                                     <Shop/>
                                   </Route>
-                                  <Route exact path="/login">
+                                  <PrivateRoute path="/shipment">
+                                      <Shipment/>
+                                  </PrivateRoute>
+                                  <Route path='/login'>
                                       <Login/>
-                                  </Route>
+                                   </Route>
                                   <Route path="/food/:id">
                                     <ProductDetail/>
                                   </Route>
@@ -44,7 +53,7 @@ function App() {
                              
                               <Footer></Footer>
       </Router>
-    </div>
+    </userContext.Provider>
   );
 }
 
