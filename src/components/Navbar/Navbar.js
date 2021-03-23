@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className="ms-auto">
                 <a href="/#"><FontAwesomeIcon icon={faShoppingCart} /></a>
                 <a href="/login"><small>Login</small></a>
-                <a href="/#"><button className="btn btn-danger">SignUp</button></a>
+                <a href="/#"><button className="btn btn-danger">SignOut</button></a>
             </nav>
         </div>
     );

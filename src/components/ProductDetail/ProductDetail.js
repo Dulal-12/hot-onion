@@ -22,6 +22,7 @@ const ProductDetail = () => {
                     <img src={image} alt="" className="img-fluid" />
                 </div>
             </div>
+         
         </div>
     );
 };

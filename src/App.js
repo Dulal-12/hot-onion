@@ -8,9 +8,9 @@ import {
   Route
 } from "react-router-dom";
 import Shop from './components/Shop/Shop';
-import Order from './components/Order/Order';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import Footer from './components/Footer/Footer';
+import Login from './components/Login/Login';
 function App() {
   return (
     <div>
@@ -21,6 +21,9 @@ function App() {
                              <Switch>
                                   <Route exact path='/'>
                                     <Shop/>
+                                  </Route>
+                                  <Route exact path="/login">
+                                      <Login/>
                                   </Route>
                                   <Route path="/food/:id">
                                     <ProductDetail/>
@@ -34,10 +37,11 @@ function App() {
                                   <Route path="/:key">
                                     <Shop/>
                                   </Route>
-                                  
+                                 
                                 
                               </Switch>
-                              <Order/>
+                             
+                             
                               <Footer></Footer>
       </Router>
     </div>
